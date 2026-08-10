@@ -1,0 +1,42 @@
+# Build / IDE
+bin/
+obj/
+*.user
+!*.props.user.example
+.vs/
+*.dll
+*.pdb
+
+# Deployed / generated GameData
+GameData/BlastFX/Plugins/
+GameData/BlastFX/BlastFX.version
+
+# AssetBundle side-products from Unity BuildPipeline
+# Keep BlastFX.bundle for releases; drop manifests / folder catalog.
+GameData/BlastFX/Shaders/*.manifest
+GameData/BlastFX/Shaders/Shaders
+
+# Unity editor cruft (keep Source/Unity/**/Assets source)
+Source/Unity/**/Library/
+Source/Unity/**/Temp/
+Source/Unity/**/Obj/
+Source/Unity/**/Logs/
+Source/Unity/**/UserSettings/
+Source/Unity/**/MemoryCaptures/
+Source/Unity/**/Build/
+Source/Unity/**/*.csproj
+Source/Unity/**/*.sln
+Source/Unity/**/*.suo
+Source/Unity/**/*.user
+Source/Unity/**/*.userprefs
+Source/Unity/**/*.pidb
+Source/Unity/**/*.booproj
+Source/Unity/**/*.svd
+Source/Unity/**/*.pdb
+Source/Unity/**/*.mdb
+Source/Unity/**/*.opendb
+Source/Unity/**/*.VC.db
+Source/Unity/**/.vs/
+Source/Unity/**/sysinfo.txt
+Source/Unity/**/*.apk
+Source/Unity/**/*.unitypackage
